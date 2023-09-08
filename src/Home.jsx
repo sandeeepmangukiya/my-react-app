@@ -1,8 +1,15 @@
 import React from "react";
+import web from "../src/images/img-1.svg";
+import Common from "./Common";
 
 const Home =() => {
     return(<>
-        <h1>Welcome to Homepage.</h1>
+        <Common 
+            name="Get Started with"
+            imgsrc={web}
+            visit="/service"
+            btnname="Get Started"
+        />
     </>)
 };
 
