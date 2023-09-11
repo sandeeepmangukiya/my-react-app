@@ -18,7 +18,9 @@ const Contact = () => {
     };
     const formSubmit = (e) => {
         e.preventDefault();
-        alert(`Your name is ${data.fullname} and your phone number is ${data.phone}.`);
+        alert(`- Your name is ${data.fullname} and your phone number is ${data.phone}.
+- Your Email adress is ${data.email}.
+- Your Message: "${data.message}"`);
     };
     return (<>
         <div className="my-5">
