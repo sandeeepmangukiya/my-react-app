@@ -1,11 +1,11 @@
 import React from "react";
 
 const Footer = () => {
-    return(
+    return (
         <>
-        <footer className="bg-light text-center">
-            <p>2023 Sandeep Mangukiya. All rights reserved</p>
-        </footer>
+            <footer className="bg-dark text-white text-center py-4">
+                <p>Sandeep Mangukiya | Parampara Fab</p>
+            </footer>
         </>
     );
 };
