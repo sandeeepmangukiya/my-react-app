@@ -4,10 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
+    const currentYear = new Date().getFullYear();
     return (
         <>
             <footer className="bg-dark text-white text-center py-4">
-                <section>
+                {/* <section>
                     <ul>
                         <li>
                             <NavLink to={{pathname:"https://www.facebook.com"}} target="_blank">
@@ -15,9 +16,9 @@ const Footer = () => {
                             </NavLink>
                         </li>
                     </ul>
-                </section>
+                </section> */}
                 <section>
-                    <p>Sandeep Mangukiya | Parampara Fab</p>
+                    <p>&copy; {currentYear} Parampara Fab | All Rights Reserved</p>
                 </section>
             </footer>
         </>
